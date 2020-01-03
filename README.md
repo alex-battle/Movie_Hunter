@@ -12,23 +12,35 @@ Give the latest stats of NBA players that you search.
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://balldontlie.io/api/v1/players?search=lebron
 {
-    "id": 237,
-    "first_name": "LeBron",
-    "height_feet": 6,
-    "height_inches": 8,
-    "last_name": "James",
-    "position": "F",
-    "team": {
-        "id": 14,
-        "abbreviation": "LAL",
-        "city": "Los Angeles",
-        "conference": "West",
-        "division": "Pacific",
-        "full_name": "Los Angeles Lakers",
-        "name": "Lakers"
-    },
-    "weight_pounds": 250
+    "data": [
+        {
+            "id": 237,
+            "first_name": "LeBron",
+            "height_feet": 6,
+            "height_inches": 8,
+            "last_name": "James",
+            "position": "F",
+            "team": {
+                "id": 14,
+                "abbreviation": "LAL",
+                "city": "Los Angeles",
+                "conference": "West",
+                "division": "Pacific",
+                "full_name": "Los Angeles Lakers",
+                "name": "Lakers"
+            },
+            "weight_pounds": 250
+        }
+    ],
+    "meta": {
+        "total_pages": 1,
+        "current_page": 1,
+        "next_page": null,
+        "per_page": 25,
+        "total_count": 1
+    }
 }
 
 ## Wireframes
