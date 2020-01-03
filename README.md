@@ -33,7 +33,8 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![image](https://media.git.generalassemb.ly/user/25137/files/7bd9f680-2e1e-11ea-91e7-c0a8a5e803fb)
+
 
 ### MVP/PostMVP - 5min
 
