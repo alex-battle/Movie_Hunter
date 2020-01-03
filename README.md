@@ -13,6 +13,7 @@ Give the latest stats of NBA players that you search.
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 https://balldontlie.io/api/v1/players?search=lebron
+
 {
     "data": [
         {
