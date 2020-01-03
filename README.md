@@ -56,10 +56,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
+-search for players and return results
+-display stats for individual players
 
 #### PostMVP 
-
+- Allow user to choose favorites 
 - Add second API
 - Use local storage to save user favorites
 
