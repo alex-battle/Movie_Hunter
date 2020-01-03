@@ -100,7 +100,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Styling overall page | H | 5 hrs | -- | -- |
 | Adding Submit button and form adding the events and return data | H | 3hrs| -- | -- |
-| Coding | H |
+| Coding | H | 8hrs | -- | -- |`
 | Working with API | H | 8hrs| 4hrs | -- | -- |
 | adding and removing search subjects | M | 2hrs | -- | -- |
 | stacking stats over one another | H | 5hrs | 
