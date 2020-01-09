@@ -79,7 +79,8 @@ div a:hover{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 body {
-    background-image: url(http://veramedia.com/wp-content/themes/activate_theme/img/bg_demo.jpg);
+    background-image: url(https://veramedia.com/wp-content/themes/activate_theme/img/bg_demo.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -112,7 +113,7 @@ h2 {
     color: yellowgreen;
     border: red;
     display: block;
-    flex-direction: left;
+    /* flex-direction: right; */
     text-align: center;
     float: :right;
     object-fit: fill;
@@ -145,4 +146,40 @@ h2 {
 #title {
     font-size: 150px;
     font-family: 'Abril Fatface', cursive;
+}
+/* @media only screen and (max-width: 600){ */
+@media screen and (max-width: 600px){
+    body{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .navbar.responsive { */
+    .navbar {
+    position: relative;
+    padding-right: 0;
+    border-radius: 0;
+    padding-left: 0; 
+    height: 20px;
+    }
+    .searchBar {
+        width: 91%;
+    }
+    .poster {
+        display: block;
+        /* justify-content: center; */
+        /* flex */
+    }
+    .movie-info {
+        display: block;
+        justify-content: left;
+        width: 
+        /* margin-right: 8000px; */
+        
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: right;
+    }
 }

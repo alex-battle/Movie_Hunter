@@ -3,13 +3,14 @@
 let newSubmit= document.querySelector('.submitButton')
 newSubmit.addEventListener('click', getMov)
 
+
 function getMov(event){
     event.preventDefault()
     let search= document.querySelector(".searchBar").value
     console.log(search)
     
 
-    let url = (`http://www.omdbapi.com/?t=${search}&apikey=9ef749a4`)
+    let url = (`https://www.omdbapi.com/?t=${search}&apikey=9ef749a4`)
     console.log(url)
     
 
@@ -33,7 +34,7 @@ function getMov(event){
         plotMovie.innerHTML=""
         plotMovie.append(res.data["Plot"]);
         let poster= res.data["imdbID"]
-        let url2 = (`http://img.omdbapi.com/?i=${poster}&h=350&apiKey=9ef749a4`)
+        let url2 = (`https://img.omdbapi.com/?i=${poster}&h=350&apiKey=9ef749a4`)
         
         let moviePoster= document.querySelector('.poster')
         moviePoster.innerHTML=`
