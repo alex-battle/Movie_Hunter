@@ -83,11 +83,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 2rd| Missed Class
-|Jan 3rd| Approval/Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 3rd| Approval/Wireframes / Priority Matrix / Functional Components | Complete
 |Jan 5th| Styling(Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 6th| Pseudocode / actual code | Incomplete
-|Jan 7th| Initial Clickable Model  | Incomplete
-|Jan 8th| MVP/Clean-up | Incomplete
+|Jan 6th| Pseudocode / actual code | complete
+|Jan 7th| Initial Clickable Model  | complete
+|Jan 8th| MVP/Clean-up | complete
 |Jan 9th| Present | Incomplete
 
 ## Priority Matrix
@@ -110,13 +110,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Styling overall page | H | 5 hrs | -- | -- |
-| Adding Submit button and form adding the events and return data | H | 3hrs| -- | -- |
-| Coding | H | 8hrs | -- | -- |`
-| Working with API | H | 8hrs| 4hrs | -- | -- |
-| adding and removing search subjects | M | 2hrs | -- | -- |
-| stacking stats over one another | H | 5hrs | 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Styling overall page | H | 5 hrs | 6 | 6 |
+| Adding Submit button and form adding the events and return data | H | 3hrs| 2 | 2 |
+| Coding | H | 8hrs | 7 | 7 |`
+| Working with API | H | 8hrs| 12hrs | 12 | -- |
+| adding and removing search subjects | M | 2hrs | 3 | -- |
+
+| Total | H | 6hrs| 27hrs | 27hrs |
 
 
 ## Code Snippet
