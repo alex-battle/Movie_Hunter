@@ -1,49 +1,58 @@
-# NBA_Ticker
+# Movie_Hunter
 
 # Project Overview
 
 ## Project Name
-NBA Ticker
+Movie Hunter
 
 ## Project Description
 
-Give the latest stats of NBA players that you search.
+Give info of movies when searched
 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-https://balldontlie.io/api/v1/players?search=lebron
-
+ http://www.omdbapi.com/?i=tt3896198&apikey=9ef749a4
 {
-    "data": [
+    "Title": "Guardians of the Galaxy Vol. 2",
+    "Year": "2017",
+    "Rated": "PG-13",
+    "Released": "05 May 2017",
+    "Runtime": "136 min",
+    "Genre": "Action, Adventure, Comedy, Sci-Fi",
+    "Director": "James Gunn",
+    "Writer": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
+    "Actors": "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
+    "Plot": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "Nominated for 1 Oscar. Another 14 wins & 52 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
+    "Ratings": [
         {
-            "id": 237,
-            "first_name": "LeBron",
-            "height_feet": 6,
-            "height_inches": 8,
-            "last_name": "James",
-            "position": "F",
-            "team": {
-                "id": 14,
-                "abbreviation": "LAL",
-                "city": "Los Angeles",
-                "conference": "West",
-                "division": "Pacific",
-                "full_name": "Los Angeles Lakers",
-                "name": "Lakers"
-            },
-            "weight_pounds": 250
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+        },
+        {
+            "Source": "Rotten Tomatoes",
+            "Value": "84%"
+        },
+        {
+            "Source": "Metacritic",
+            "Value": "67/100"
         }
     ],
-    "meta": {
-        "total_pages": 1,
-        "current_page": 1,
-        "next_page": null,
-        "per_page": 25,
-        "total_count": 1
-    }
+    "Metascore": "67",
+    "imdbRating": "7.6",
+    "imdbVotes": "518,435",
+    "imdbID": "tt3896198",
+    "Type": "movie",
+    "DVD": "22 Aug 2017",
+    "BoxOffice": "$389,804,217",
+    "Production": "Walt Disney Pictures",
+    "Website": "N/A",
+    "Response": "True"
 }
-
 ## Wireframes
 
 ![image](https://media.git.generalassemb.ly/user/25137/files/7bd9f680-2e1e-11ea-91e7-c0a8a5e803fb)
